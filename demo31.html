@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>JAVASCRIPT</title>
+    <script>
+
+      //template literal -backtick is used to seperate or concate  your string part and the variable part
+      //back tic
+
+      const name ="klef"
+      document.writeln(`<b>Hi ${name}</b></br>`)
+
+      //spread operator-used to combine two arrays
+
+      const a=[10,23,45,56]
+      const b=[...a,30,40]
+      document.writeln("a="+a+"</br>")
+      document.writeln("b="+b+"</br>")
+
+      const x=[12,13,45,56]
+      const y=[57,23,90,34]
+      const z=[...x,...y]
+      document.writeln("x="+x+"</br>")
+      document.writeln("y="+y+"</br>")
+      document.writeln("z="+z+"</br>")
+      const v1= "kluniversity"
+      const v2= [...v1]
+      document.writeln("v1="+v1+"</br>")
+      document.writeln("v2="+v2+"</br>")
+
+      //destructuring assignment
+
+      const names =[10,"mswd","sdp",20]
+      document.writeln("Name=" +names+"</br>")
+      document.writeln("Length =" +names.length+"</br>")
+        const [i,j,k,l]=names
+      document.writeln(i+"</br>")
+      document.writeln(j+"</br>")
+      document.writeln(k+"</br>")
+      document.writeln(1+"</br>")
+
+      const [p,q]=names
+      document.writeln(p+"</br>")
+      document.writeln(q+"</br>")
+
+      const [m,,,n]=names
+      document.writeln(m+"</br>")
+      document.writeln(n+"</br>")
+    </script>
+  </head>
+
+  <body></body>
+</html>
